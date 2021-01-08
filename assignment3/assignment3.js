@@ -1,45 +1,45 @@
-// const one=document.getElementById("container");
-// console.log(one);
+const one=document.getElementById("container");
+console.log(one);
 
-// const two=document.querySelector("#container");
-// console.log(two);
+const two=document.querySelector("#container");
+console.log(two);
 
-// const three=document.getElementsByClassName("second");
-// console.log(three);
+const three=document.getElementsByClassName("second");
+console.log(three);
 
-// //const four=document.querySelector("#container > ol > li.third");
+//const four=document.querySelector("#container > ol > li.third");
 
-// const four = document.getElementById('container').lastElementChild.querySelector('.third');
-// console.log(four);
+const four = document.getElementById('container').lastElementChild.querySelector('.third');
+console.log(four);
 
 // //const q5 = document.getElementById('container');
 // //q5.innerText="Hello!";
 
-// const q6= document.querySelector(".footer").classList.add("main");
+const q6= document.querySelector(".footer").classList.add("main");
 
 
-//  const q7 = document.querySelector(".footer").classList.remove('main');
+ const q7 = document.querySelector(".footer").classList.remove('main');
 
-//  let q8=document.createElement('li');
+ let q8=document.createElement('li');
 
-//  //q9
-//  console.log(q8.innerText = "four");
-
-
-//  //q10
-//  //find the first it encounter
-//  //byId entire selection
-//  let parent = document.querySelector("ul")
-
-//  //q11
-//  console.log(parent.appendChild(q8));
+ //q9
+ console.log(q8.innerText = "four");
 
 
-//  //q12
-//  const items = document.querySelectorAll("ol li");
-//  items.forEach(item => {
-//    item.style.backgroundColor = "green";
-//  });
+ //q10
+ //find the first it encounter
+ //byId entire selection
+ let parent = document.querySelector("ul")
+
+ //q11
+ console.log(parent.appendChild(q8));
+
+
+ //q12
+ const items = document.querySelectorAll("ol li");
+ items.forEach(item => {
+   item.style.backgroundColor = "green";
+ });
 
 //  //q13
 
@@ -60,6 +60,3 @@
 13) Remove the div with a class of footer.
 */
 
-//$("ul").css("font-size","5rem")
-//$("h1").addClass("big-title margin-50")
-//.hasClass("margin-50")
